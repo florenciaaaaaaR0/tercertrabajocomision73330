@@ -1,0 +1,123 @@
+header {
+  background-color: #212529;
+  padding: 10px 0;
+}
+header .navbar .navbar-brand {
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  font-size: 1.5rem;
+}
+header .navbar .navbar-brand:hover {
+  color: #ffc107;
+  text-decoration: none;
+}
+header .navbar .nav-link {
+  color: #adb5bd;
+  text-transform: capitalize;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+header .navbar .nav-link:hover, header .navbar .nav-link.active {
+  color: #ffc107;
+  text-decoration: underline;
+}
+
+footer {
+  background-color: #343a40;
+  color: #fff;
+  padding: 30px 0;
+  text-align: center;
+  font-size: 1rem;
+  border-top: 3px solid #ffc107;
+}
+footer a {
+  margin: 0 15px;
+  font-weight: 600;
+  color: #ffc107;
+  transition: color 0.3s ease;
+}
+footer a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+footer .btn {
+  margin: 0 10px;
+  font-weight: 500;
+  border-radius: 0;
+}
+footer .btn-danger {
+  background-color: #dc3545;
+}
+footer .btn-danger:hover {
+  background-color: rgb(189.2151898734, 32.7848101266, 47.7721518987);
+  border-color: rgb(189.2151898734, 32.7848101266, 47.7721518987);
+}
+footer .btn-secondary {
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
+footer .btn-secondary:hover {
+  background-color: rgb(84.3605150215, 91.3905579399, 97.6394849785);
+  border-color: rgb(84.3605150215, 91.3905579399, 97.6394849785);
+}
+footer .btn-warning {
+  background-color: #ffc107;
+  border-color: #ffc107;
+  color: #212529;
+}
+footer .btn-warning:hover {
+  background-color: rgb(211, 158.25, 0);
+  border-color: rgb(211, 158.25, 0);
+}
+
+.navbar {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.navbar-brand {
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.navbar .nav-link {
+  text-transform: capitalize;
+  font-weight: 500;
+}
+
+.carousel-inner img {
+  transition: filter 0.3s ease-in-out;
+  filter: brightness(0.9);
+  max-height: 500px;
+  object-fit: cover;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 768px) {
+  .carousel-inner img {
+    max-height: 300px;
+  }
+}
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa;
+  color: #212529;
+  margin: 0;
+  padding: 0;
+}
+
+header, footer {
+  margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+  .navbar-brand {
+    font-size: 1rem;
+  }
+  footer a {
+    display: inline-block;
+    margin: 10px 5px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

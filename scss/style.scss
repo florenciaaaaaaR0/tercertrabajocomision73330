@@ -1,0 +1,28 @@
+@use "./header.scss";
+@use "./footer.scss";
+@use "./navbar.scss";
+@use "./animation.scss";
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa;
+  color: #212529;
+  margin: 0;
+  padding: 0;
+}
+
+header, footer {
+  margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+  .navbar-brand {
+    font-size: 1rem;
+  }
+
+  footer a {
+    display: inline-block;
+    margin: 10px 5px;
+  }
+}
+
